@@ -92,7 +92,7 @@
 开动实验
 ---------------
 
-欢迎来到Nutanix Essentials训练营！ 本实验手册伴随着讲师指导的培训，介绍了Nutanix解决方案和许多常见的管理任务。 每个部分都有一个课程和实验，为您提供实践练习。 讲师会讲解练习并回答您可能遇到的任何其他问题。
+欢迎来到Nutanix Founder训练营！ 本实验手册伴随着讲师指导的培训，介绍了Nutanix解决方案和许多常见的管理任务。 每个部分都有一个课程和实验，为您提供实践练习。 讲师会讲解练习并回答您可能遇到的任何其他问题。
 
 在训练营结束时，与会者应该了解Nutanix企业云堆栈的基本概念和技术，并且应该为托管或现场概念验证（POC）参与做好充分准备。
 
@@ -111,9 +111,11 @@ What's New
 
 - 简介
 - Prism Pro
+- Nutanix Flow
+- Nutanix Era
 - Files
 - Nutanix Calm
-- Nutanix Flow
+
 
 简介
 +++++++++++++
@@ -125,7 +127,7 @@ What's New
 +++++++++++++
 
 - 记下使用的密码。
-- 登录虚拟桌面（基于下面的连接信息）
+- 使用VPN连接到实验环境，或登录虚拟桌面（基于下面的连接信息）
 
 环境说明
 +++++++++++++++++++
@@ -248,11 +250,22 @@ If provisioned from the marketing pool:
 Parallels VDI
 .................
 
-Login to: https://xld-uswest1.nutanix.com (for PHX) or https://xld-useast1.nutanix.com (for RTP)
-
-**Nutanix Employees** - Use your NUTANIXDC credentials
+Login to: https://xld-uswest1.nutanix.com (for PHX) 
 **Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
 
+Pulse VPN 客户端
+.................
+
+1. 如果客户端已经安装，跳转到步骤5
+2. 下载客户端，请使用提供的用户凭据登录：
+https://xlv-uswest1.nutanix.com
+3. 下载并安装VPN客户端
+4. 注销Web UI
+5. 打开客户端，添加以下内容进行连接:
+Type: Policy Secure (UAC) or Connection Server(VPN)
+Name: X-Labs - PHX
+Server URL: xlv-uswest1.nutanix.com
+6. 设置完成后，使用提供的凭证登录
 
 
 
