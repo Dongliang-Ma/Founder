@@ -255,12 +255,13 @@ Login to: https://xld-uswest1.nutanix.com (for PHX)
 
 Pulse VPN 客户端
 .................
-1. 如果客户端已经安装，跳转到步骤5
-2. 下载客户端，请使用提供的用户凭据登录：
+
+-1. 如果客户端已经安装，跳转到步骤5
+-2. 下载客户端，请使用提供的用户凭据登录：
 https://xlv-uswest1.nutanix.com
-3. 下载并安装VPN客户端
-4. 注销Web UI
-5. 打开客户端，添加以下内容进行连接:
+-3. 下载并安装VPN客户端
+-4. 注销Web UI
+-5. 打开客户端，添加以下内容进行连接:
 Type: Policy Secure (UAC) or Connection Server(VPN)
 Name: X-Labs - PHX
 Server URL: xlv-uswest1.nutanix.com
