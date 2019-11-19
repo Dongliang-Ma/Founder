@@ -255,7 +255,6 @@ Login to: https://xld-uswest1.nutanix.com (for PHX)
 
 Pulse VPN 客户端
 .................
-
 1. 如果客户端已经安装，跳转到步骤5
 2. 下载客户端，请使用提供的用户凭据登录：
 https://xlv-uswest1.nutanix.com
